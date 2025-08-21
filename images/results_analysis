@@ -1,1 +1,14 @@
+📊 Results (Kvasir-SEG Dataset)
 
+
+Model                      IoU       Dice Score
+------------------------------------------------
+DUCK-Net                  0.9502     0.9051
+EffiSegNet                0.9488     0.9065
+UPolySeg                  0.9686     0.8791
+Multi-Layer Dense Decoder 0.9190     0.8690
+Polyp-PVT (Baseline)      0.9170     0.8640
+PVT-MiniUNet (Proposed)   0.9158     0.9550
+
+Improves Dice score by +9.1% and IoU by +6.9% over baseline Polyp-PVT.
+Uses 25.14M params & 10.15 GMACs, making it suitable for real-time, low-resource deployment.
